@@ -55,6 +55,8 @@ p {
 @media only screen and (max-width: 768px) {
   .bg {
     background-position: 10% 0%;
+    background-attachment: scroll;
+    height: 100%;
   }
 
   .button.small-screen {
