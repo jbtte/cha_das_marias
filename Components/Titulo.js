@@ -6,7 +6,7 @@ export default function Titulo() {
       <div>
         <div className="d-sm-none d-block">
           <Image
-            src="/../public/gemeas.png"
+            src={'/../public/gemeas.png'}
             height={200}
             width={200}
             alt="Desenho de gêmeas"
