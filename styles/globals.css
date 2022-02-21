@@ -1,9 +1,17 @@
+/* import */
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Gluten:wght@200&display=swap');
+@import 'button.css';
+@import 'background.css';
+
+/* CSS*/
+
 html,
 body {
+  color: white;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 20px;
+  font-family: 'Gluten', cursive;
 }
 
 a {
@@ -13,4 +21,43 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1 {
+  font-size: 75px;
+  font-family: 'Crafty Girls', cursive;
+}
+
+p {
+  text-shadow: 1px 1px #2a839a;
+}
+
+.pink {
+  color: #ff66c4 !important;
+}
+
+#text {
+  margin-top: 5%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url('../public/cha_background.png');
+
+  /* Full height */
+  height: 100vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .bg {
+    background-position: 10% 0%;
+  }
+
+  .button.small-screen {
+    width: 30%;
+  }
 }

@@ -1,0 +1,27 @@
+.btn-primary {
+  background-color: #ff66c4 !important;
+  border-color: #ff66c4 !important;
+}
+
+.btn-primary:hover {
+  background-color: #fff !important;
+  border-color: #ff66c4 !important;
+  color: #ff66c4 !important;
+}
+
+.btn-primary,
+.btn-success:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-success {
+  background-color: #34a3bf !important;
+  border-color: #34a3bf !important;
+}
+
+.btn-success:hover {
+  background-color: #fff !important;
+  border-color: #34a3bf !important;
+  color: #34a3bf !important;
+}
