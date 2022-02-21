@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import gemeas from '../public/gemeas.png';
 
 export default function Titulo() {
   return (
@@ -6,7 +7,7 @@ export default function Titulo() {
       <div>
         <div className="d-sm-none d-block">
           <Image
-            src={'/../public/gemeas.png'}
+            src={gemeas}
             height={200}
             width={200}
             alt="Desenho de gêmeas"
