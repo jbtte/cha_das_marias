@@ -16,7 +16,7 @@ export default function Texto() {
             uma vaquinha para comprar fraldas.
           </p>
           <p>
-            Aproveira e deixa uma mensagem pra eles que vamos fazer uma edição
+            Aproveita e deixa uma mensagem pra eles que vamos fazer uma edição
             bem legal! Depois a gente manda a reação deles pra vocês
           </p>
         </div>

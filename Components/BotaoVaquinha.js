@@ -24,15 +24,15 @@ export default function BotaoVaquinha() {
         <Modal.Body className="text-info">
           <p>
             Estamos recebendo o PIX na conta do irmão do Luis, ok? A chave é o
-            celular dele (61) 98115 7672 em nome de João Paulo Machado Baumotte.
+            celular dele (61) 98115 7672 - João Paulo Machado Baumotte.
           </p>
           <p>
             Se você for fazer o PIX da conta de outra pessoa, lembra de mandar o
-            comprovante para gente incluir seu nome nome. Pode ser nesse mesmo
-            número de celular.
+            comprovante para gente incluir seu nome. Pode ser nesse mesmo número
+            de celular.
           </p>
           <p>
-            Ah, um pacote da Pampers com 50 fraldas custa R$40, só para você ter
+            Ah, um pacote da Pampers com 50 fraldas custa R$60, só para você ter
             uma referência 😉
           </p>
         </Modal.Body>
