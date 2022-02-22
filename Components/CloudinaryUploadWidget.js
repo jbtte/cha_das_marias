@@ -30,13 +30,13 @@ class CloudinaryUploadWidget extends Component {
   render() {
     return (
       <>
-        <Head>
+        {/* <Head>
           // eslint-disable-next-line @next/next/no-sync-scripts
           <script
             src="https://widget.cloudinary.com/v2.0/global/all.js"
             type="text/javascript"
           />
-        </Head>
+        </Head> */}
         <button id="upload_widget" className="btn btn-success small-screen">
           Mande seu Video
         </button>

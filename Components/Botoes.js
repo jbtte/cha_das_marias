@@ -1,4 +1,5 @@
 import CloudinaryUploadWidget from './CloudinaryUploadWidget';
+import BotaoUpload from './BotaoUpload';
 import BotaoVaquinha from './BotaoVaquinha';
 
 export default function Botoes() {
@@ -6,7 +7,7 @@ export default function Botoes() {
     <div className="row">
       <div className="col-md-5 col-sm-12 text-center mt-4 d-flex justify-content-around">
         <BotaoVaquinha />
-        <CloudinaryUploadWidget />
+        <BotaoUpload />
       </div>
     </div>
   );
